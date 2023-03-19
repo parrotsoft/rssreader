@@ -1,4 +1,4 @@
-# BaseApp
+# RssReader
 
 This package allows us to read RSS easily.
 
