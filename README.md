@@ -1,6 +1,6 @@
 # BaseApp
 
-This package creates the tables and basic data of the departments and cities of Colombia.
+This package allows us to read RSS easily.
 
 ## Installation
 
