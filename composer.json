@@ -1,0 +1,39 @@
+{
+    "name": "mlopez/rss-reader",
+    "autoload": {
+        "psr-4": {
+            "Mlopez\\RssReader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mlopez\\RssReader\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Angel Lopez Ariza",
+            "email": "lopezarizamiguel@gmail.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "laravel",
+        "rss",
+        "news",
+        "noticias"
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "ext-simplexml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.20"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests",
+        "coverage": "php -dxdebug.mode=coverage vendor/bin/phpunit --coverage-clover='reports/coverage/coverage.xml' --coverage-html='reports/coverage'"
+    }
+}
